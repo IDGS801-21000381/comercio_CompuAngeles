@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <div class="card">
+    <h1>Lista de Computadoras</h1>
+  </div>
+  <div class="container mt-4">
+    <table class="table">
+      <thead>
+        <h1 *ngIf="!isResultLoaded">Cargando Datos.....</h1>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Descripción</th>
+          <th scope="col">Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let computadora of listaComputadoras">
+          <td>{{computadora.id}}</td>
+          <td>{{computadora.nombre}}</td>
+          <td>{{computadora.descripcion}}</td>
+          <td>{{computadora.precio}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

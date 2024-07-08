@@ -1,0 +1,35 @@
+    body {
+      background-color: #0d4e63;
+      color: white;
+    }
+
+    .navbar {
+      background-color: #1b1166;
+    }
+
+    .navbar-brand img {
+      width: 50px;
+      border-radius: 50%;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .btn-primary {
+      background-color: #1b1166;
+      border-color: #1b1166;
+    }
+
+    .btn-primary:hover {
+      background-color: #2a1f91;
+      border-color: #2a1f91;
+    }
